@@ -1,5 +1,28 @@
 /* This media query is used only for mobile devices */
 @media only screen and (max-width: 767px) {
+    .nav_wrapper {
+        display: none;
+    }
+.hamburger {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(hamburgeri)
+    background-size: cover;
+}
+.box{
+    margin-top: 50px;
+}
+.box__thumb {
+    height:300px;
+}
+.blog_section {
+    margin-bottom: 50px;
+}
+.footerWrap {
+    height: 60px;
+    flex-direction: column-reverse;
+}
 }
 /* This media query is used only for small tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 990px) {
